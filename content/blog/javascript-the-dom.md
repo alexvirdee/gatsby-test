@@ -145,13 +145,6 @@ The Command Line
 <p>Perfect, we now have all folders and files for our project. We now need to move back up to root of project and open up our IDE.</p>
 
 
-<div class="wp-block-image">
-<figure class="aligncenter is-resized"><img class="wp-image-75727" src="http://alexvirdeeblog.com/wp-content/uploads/2018/12/ng-15320-unsplash-1024x683.jpg" alt="building code " width="381" height="254" />
-<figcaption><em>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</em></figcaption>
-</figure>
-</div>
-
-
 <pre class="wp-block-code"><code>cd ..</code></pre>
 
 
