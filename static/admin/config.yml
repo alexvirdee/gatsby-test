@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: alexvirdee/gatsby-test
+  repo: alexvirdee/gatsby-blog
 
 media_folder: content/assets
 public_folder: ../assets
