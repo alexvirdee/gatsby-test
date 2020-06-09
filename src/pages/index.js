@@ -23,7 +23,20 @@ class IndexPage extends React.Component {
           </span>
         </h1>
         <p>I am a web developer based in Miami, Fl. 🌴</p>
-        <p>I studied Business Administration at the University of Central Florida & after graduating taught myself how to build software. I want to share my journey of getting into the industry without a traditional Computer Science degree & realizing fulfillment from a career in tech. I am enjoying the process of writing and getting some of my ideas and thoughts on here. I hope you may find some my posts helpful or interesting.</p>
+        <p>
+          I studied Business Administration at the University of Central Florida
+          & after graduating taught myself how to build software. I want to
+          share my journey of getting into the industry without a traditional
+          Computer Science degree. Software is incredibly rewarding and i'm
+          excited to share details both about technology as well as different topics
+          and hobbies that i'm interested in.{" "}
+        </p>
+        <p>
+          {" "}
+          I am enjoying the process of writing and getting some of my ideas and
+          thoughts on here. I hope you may find some my posts helpful or
+          interesting.
+        </p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
