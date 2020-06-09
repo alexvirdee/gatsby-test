@@ -1,6 +1,6 @@
 ---
 path: JavaScript and the DOM
-date: 2020-06-09T20:28:43.831Z
+date: 2018-12-07T05:00:00.000Z
 title: JavaScript and the DOM
 description: DOM Manipulation with pure JavaScript
 ---
