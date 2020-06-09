@@ -24,8 +24,6 @@ I ultimately decided on attending Ironhack in Miami after debating for a few mon
 
 Ironhack was a really great experience and having graduated only last week, I am feeling very optimistic on the opportunities available and i've already landed a freelance project. This course is intense. It is only 9 weeks compared to the average of 12 weeks for other coding bootcamps. Students are required to keep up with the pace, you should definitely have some coding experience (self learning from code school or code academy) prior to attending. You will have to put in a lot of time and effort especially on the weekends to grasp the material. It's important to make sure that web development is something you are serious about and have a passion for! The more code experience you have prior to attending your cohort will help immensely as the course progresses to the more difficult topics. There is also mandatory pre-work that will help as you start the first week covering the basic fundamentals of HTML5, CSS3, and basic JavaScript. Ironhack's curriculum covered the MEAN stack for building web applications.
 
-![Ironhack January 2018 Cohort](/../assets/ironhack.jpg "Ironhack January 2018 Cohort")
-
 <h4>Module 1:</h4>
 <ul>
  	<li>JavaScript fundamentals</li>
