@@ -1,5 +1,4 @@
 import React from "react";
-import Img from "gatsby-image";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout"
@@ -29,7 +28,7 @@ class IndexPage extends React.Component {
           Resume
         </a>
       </div>
-        <Img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
+        <img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
