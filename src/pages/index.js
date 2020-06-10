@@ -1,5 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import Img from "gatsby-image";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,7 +29,7 @@ class IndexPage extends React.Component {
           Resume
         </a>
       </div>
-        <img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
+        <Img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
