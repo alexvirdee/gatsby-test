@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
           Portfolio
         </a>
         <Link className='header-link' to="/blog">
-          Blog
+          View Posts
         </Link>
         {/* <a className='header-link' href="./alexvirdee-developer.pdf">
           Resume
