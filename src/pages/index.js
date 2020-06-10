@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
         </p>
         <p>
           {" "}
-          Be sure to check out my blog as I am enjoying the process of writing and getting some of my ideas and
+          I am enjoying the process of writing and getting some of my ideas and
           thoughts on here. I hope you may find some my posts helpful or
           interesting.
         </p>

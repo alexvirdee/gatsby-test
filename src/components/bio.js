@@ -21,31 +21,19 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            {/* <img
-              fixed={data.avatar.childImageSharp.fixed}
-              src='./logo.png'
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            /> */}
-            <img src={Logo} style={{
-              width: '65px',
+            <p>
+              Personal blog by 
+             <strong>  <a href={`https://twitter.com/${social.twitter}`}>
+                {author}
+              </a></strong>,   <img src={Logo} style={{
+              width: '40px',
               height: '45px',
+              paddingTop: '25px',
+              marginLeft: '15px',
               marginRight: rhythm(1 / 2),
             }} />
-            <p>
-              Posts by <strong>{author}</strong>, 
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+
             </p>
           </Container>
         )
