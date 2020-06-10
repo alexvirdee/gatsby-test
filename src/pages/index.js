@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
+import './index.styles.css';
+
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "Alex Virdee"
@@ -15,6 +17,17 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
+        <div className='header'>
+         <a className='header-link' href="http://alexvirdee.com/">
+          Portfolio
+        </a>
+        <Link className='header-link' to="/blog">
+          Blog
+        </Link>
+        <a className='header-link' href="./alexvirdee-developer.pdf">
+          Resume
+        </a>
+      </div>
         <img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
         <h1>
           Hello World{" "}
@@ -22,7 +35,7 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>I am a web developer based in Miami, Fl. 🌴</p>
+        <p>I am a web developer based in Miami, Fl.</p>
         <p>
           I studied Business Administration at the University of Central Florida
           & after graduating taught myself how to build software. I want to
@@ -33,7 +46,7 @@ class IndexPage extends React.Component {
         </p>
         <p>
           {" "}
-          I am enjoying the process of writing and getting some of my ideas and
+          Be sure to check out my blog as I am enjoying the process of writing and getting some of my ideas and
           thoughts on here. I hope you may find some my posts helpful or
           interesting.
         </p>

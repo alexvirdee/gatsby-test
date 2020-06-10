@@ -15,8 +15,8 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            ...scale(1.4),
+            marginBottom: rhythm(1.2),
             marginTop: 0,
           }}
         >
@@ -70,6 +70,7 @@ class Layout extends React.Component {
           Built by
           {` `}
          Alex Virdee  © {new Date().getFullYear()}
+         
         </Footer>
       </Wrapper>
     )
