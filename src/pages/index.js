@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,11 +25,11 @@ class IndexPage extends React.Component {
         <Link className='header-link' to="/blog">
           Blog
         </Link>
-        <a className='header-link' href="./alexvirdee-developer.pdf">
+        {/* <a className='header-link' href="./alexvirdee-developer.pdf">
           Resume
-        </a>
+        </a> */}
       </div>
-        <img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
+        <LazyLoadImage style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
