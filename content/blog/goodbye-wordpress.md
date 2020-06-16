@@ -1,5 +1,5 @@
 ---
-path: googbye wordpress
+path: goodbye wordpress
 date: 2020-06-16T14:50:20.874Z
 title: Goodbye WordPress
 description: Why I switched this site over to a static development environment
