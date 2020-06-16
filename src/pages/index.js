@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,7 +29,7 @@ class IndexPage extends React.Component {
           Resume
         </a> */}
       </div>
-        <img style={{ margin: 0 }} src="./423.jpg" alt="Web Developer" />
+        <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Web Developer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
@@ -59,3 +60,15 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage
+
+export const query = graphql`
+ query {
+   file(relativePath: { eq: "423.jpg" }) {
+     childImageSharp {
+       fixed(width: 444, height: 300) {
+         ...GatsbyImageSharpFixed
+       }
+     }
+   }
+ }
+`
