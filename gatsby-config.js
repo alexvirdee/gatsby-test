@@ -4,7 +4,7 @@ module.exports = {
     title: `Front-end Developer`,
     author: `Alex Virdee`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://hungry-bassi-27b875.netlify.app/`,
+    siteUrl: `https://alexvirdee-blog.netlify.app/`,
     social: {
       twitter: `alex_virdee`,
     },

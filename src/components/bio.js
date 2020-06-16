@@ -10,6 +10,7 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Logo from '../../static/logo.png';
+import { Link } from "gatsby";
 
 import { rhythm } from "../utils/typography"
 
@@ -23,9 +24,9 @@ function Bio() {
           <Container>
             <p>
               Personal blog by 
-             <strong>  <a href={`https://twitter.com/${social.twitter}`}>
+             <strong>  <Link to={`/`}>
                 {author}
-              </a></strong>,   <img src={Logo} style={{
+              </Link></strong>,   <img src={Logo} style={{
               width: '40px',
               height: '45px',
               paddingTop: '25px',
