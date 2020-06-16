@@ -31,10 +31,22 @@ A few years back I was still getting the basics of software development (front-e
    * You can manage site from any computer 
 
 * WordPress Cons 
-   * Vulnerability. It is well known that WordPress sites are about 30% of the internet and      are a target for hackers. 
+   * Vulnerability. It is well known that WordPress sites are about 30% of the internet which makes it a target for hackers. 
    * $$$. It can be expensive with a web host to use. 
    * Will need constant updates that can potentially break plug-ins the developer is using
    * Coding knowledge. If things break some programming knowledge will be helpful to solve issues and also fully customize a site this is necessary. 
 
+* Gatsby Pros
+   * Based on a popular JavaScript framework with tons of support 
+   * Can utilize Ntelify CMS to build a blog instead of from scratch as is the case with this website
+   * Easily build out React components (coding knowledge)
+   * Relatively easy to learn and fun to use once you understand how it works under the hood
+   * Incredibly fast UX experience on production and development. Sites will have no problem loading even with a lot of content being displayed
+   * Use other available CMS system for Gatsby.js from Contentful 
+
+* Gatsby Cons 
+   * Definitely need to have some in-depth knowledge of the front-end development ecosystem at least knowing html, css, javascript (React.js).
+   * Content management system is rather basic and not as in-depth as wordpress but it's ultimately more customizable as you directly edit code
+   * A little complex if you're not sure how to push apps online. With some knowledge of git this is mitigated however.  
 
 
