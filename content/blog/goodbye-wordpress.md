@@ -20,3 +20,21 @@ I am sure you may have heard of good old wordpress. It is a content management s
 This website was initially using it but after a few years I decided it was a bit too much to use and decided to code out a Gatsby website. 
 
 ## Comparison
+
+A few years back I was still getting the basics of software development (front-end) & could only manage building small html5 games and websites. Working with Gatsby.js would have been a little too complex at the time and WordPress was easy to get up and running. I am now enjoying the development speed involved with React.js websites and will continue to move forward building in that environment. Below are some pros and cons of both Gatsby and WordPress. 
+
+* WordPress Pros
+   * Fully built CMS system (great for people not familiar with code)
+   * Easily add images 
+   * Drag and drop components (Navbar, footer, etc.)
+   * Blog is built and ready to go
+   * You can manage site from any computer 
+
+* WordPress Cons 
+   * Vulnerability. It is well known that WordPress sites are about 30% of the internet and      are a target for hackers. 
+   * $$$. It can be expensive with a web host to use. 
+   * Will need constant updates that can potentially break plug-ins the developer is using
+   * Coding knowledge. If things break some programming knowledge will be helpful to solve issues and also fully customize a site this is necessary. 
+
+
+
