@@ -1,15 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 import Img from "gatsby-image"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome, faBookOpen } from "@fortawesome/free-solid-svg-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
-import "./index.styles.css"
+import './index.styles.css';
 
 class IndexPage extends React.Component {
   render() {
@@ -19,20 +16,17 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `photography`]}
+          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <div className="header">
-          <a className="header-link" href="http://alexvirdee.com/">
-            <Button><FontAwesomeIcon className="btn-icon" icon={faHome}></FontAwesomeIcon>Portfolio</Button>{" "}
-          </a>
-          <Link className="header-link" to="/blog">
-            <Button><FontAwesomeIcon className="btn-icon" icon={faBookOpen}></FontAwesomeIcon> View Posts</Button>
-          </Link>
-        </div>
-        <Img
-          fixed={this.props.data.file.childImageSharp.fixed}
-          alt="Web Developer"
-        />
+        <div className='header'>
+         <a className='header-link' href="http://alexvirdee.com/">
+          Portfolio
+        </a>
+        <Link className='header-link' to="/blog">
+          View Posts
+        </Link>
+      </div>
+        <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Web Developer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
@@ -45,8 +39,8 @@ class IndexPage extends React.Component {
           & after graduating taught myself how to build software. I want to
           share my journey of getting into the industry without a traditional
           Computer Science degree. Software is incredibly rewarding and i'm
-          excited to share details both about technology as well as different
-          topics and hobbies that i'm interested in.{" "}
+          excited to share details both about technology as well as different topics
+          and hobbies that i'm interested in.{" "}
         </p>
         <p>
           {" "}
@@ -65,13 +59,13 @@ class IndexPage extends React.Component {
 export default IndexPage
 
 export const query = graphql`
-  query {
-    file(relativePath: { eq: "423.jpg" }) {
-      childImageSharp {
-        fixed(width: 470, height: 315) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
+ query {
+   file(relativePath: { eq: "423.jpg" }) {
+     childImageSharp {
+       fixed(width: 470, height: 315) {
+         ...GatsbyImageSharpFixed
+       }
+     }
+   }
+ }
 `
