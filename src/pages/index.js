@@ -33,7 +33,7 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>I am a web developer based in Miami, Fl.</p>
+        <p>I am a Software Developer based in Fort Lauderdale, Fl.</p>
         <p>
           I studied Business Administration at the University of Central Florida
           & after graduating taught myself how to build software. I want to
