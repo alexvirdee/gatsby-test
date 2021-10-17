@@ -21,3 +21,5 @@ My new position at Olive is remote which is a change for me as my experience at 
 **Benefits**
 
 1. FREEDOM - I really do think that a lot of companies could benefits from allowing their employees to work from home or to at least implement a hybrid type of environment to provide flexibility. I've noticed I have actually become increasingly more productive with my time. Olive is very structured with our meetings which makes sense since the organization has over a 1,000 employees it is necessary to meet often in order to keep everyone in sync.
+
+2. 
