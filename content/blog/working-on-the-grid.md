@@ -4,7 +4,7 @@ date: 2021-10-17T14:40:24.249Z
 title: Working On The Grid
 description: "Benefits of working from home "
 ---
-**Intro**
+### **Intro**
 
 *"Your time is limited, so don't waste it living someone else's life." - Steve Jobs*
 
@@ -14,12 +14,11 @@ Working in tech things move incredibly fast and I can attest to that in just how
 
 This leads me into the subject of this post. Although I was enjoying my time at Banyan working on our products there I was reached out regarding a new software engineer position. My new company Olive AI. An artificial intelligence company that is focused on automating tasks within the health care industry. It's incredibly exciting to me how software has the potential to make such a big impact on an industry that is out dated (by means of technology) and the company is soon to have an IPO within the next year or so! 
 
-**"The Grid"**
+### **"The Grid"**
 
 My new position at Olive is remote which is a change for me as my experience at other companies was always in-person. I have been there for about a month now and I thought this would make for a good blog post to list some of the things that I am enjoying about working remote or "On The Grid" as Olive likes to put it. 
 
-**Benefits**
+### **Benefits**
 
-1. FREEDOM - I really do think that a lot of companies could benefits from allowing their employees to work from home or to at least implement a hybrid type of environment to provide flexibility. I've noticed I have actually become increasingly more productive with my time. Olive is very structured with our meetings which makes sense since the organization has over a 1,000 employees it is necessary to meet often in order to keep everyone in sync.
-
-2. 
+1. **FREEDOM** - I really do think that a lot of companies could benefits from allowing their employees to work from home or to at least implement a hybrid type of environment to provide flexibility. I've noticed I have actually become increasingly more productive with my time. Olive is very structured with our meetings which makes sense since the organization has over a 1,000 employees it is necessary to meet often in order to keep everyone in sync.
+2. **Comfort** -
