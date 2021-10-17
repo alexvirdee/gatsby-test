@@ -16,8 +16,6 @@ This leads me into the subject of this post. Although I was enjoying my time at 
 
 **"The Grid"**
 
-![The Grid](../assets/the-grid.png "The Grid")
-
 My new position at Olive is remote which is a change for me as my experience at other companies was always in-person. I have been there for about a month now and I thought this would make for a good blog post to list some of the things that I am enjoying about working remote or "On The Grid" as Olive likes to put it. 
 
 **Benefits**
