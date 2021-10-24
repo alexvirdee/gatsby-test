@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Front-end Developer`,
+    title: `Software Engineer`,
     author: `Alex Virdee`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://alexvirdee-blog.netlify.app/`,
