@@ -8,7 +8,7 @@ description: "Benefits of working from home "
 
 *"Your time is limited, so don't waste it living someone else's life." - Steve Jobs*
 
-^ I recently read Steve Jobs by Walter Isaacson and I highly recommend it! Such an incredible and inspiring life. I put the above quote as I believe it's important to do what you want with your life and not to live based on others expectations of you or what you may think is required of you. 
+^ I recently read Steve Jobs by Walter Isaacson and I highly recommend it. Such an incredible and inspiring life. I put the above quote as I believe it's important to do what you want with your life and not to live based on others expectations of you or what you may think is required of you. 
 
 Working in tech things move incredibly fast and I can attest to that in just how much things have changed for me in the past year. As we all know in 2020 the pandemic was a real shock in the beginning. On my end I Faced a lay off and I also failed at launching my own company. I am proud of everything that has happened in-between and wouldn't change a thing however. I recently left a phenomenal company (Banyan Air Service) in Fort Lauderdale back in September to join a fast growing medical software company. Banyan was a great experience and I had the pleasure of working with a bright team there. In just a little over a years time we were able to launch a mobile application for both our customers and employees to both iOs and Android app stores. 
 
