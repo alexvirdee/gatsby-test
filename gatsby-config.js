@@ -16,6 +16,48 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-local-search",
+      options: {
+        name: "blog",
+        engine: "flexsearch",
+        engineOptions: {
+          encode: "icase",
+          tokenize: "forward",
+          async: false,
+        },
+        query: `
+          {
+            allMdx {
+              nodes {
+                id
+                fields { slug }
+                excerpt
+                rawBody
+                frontMatter {
+                  title
+                  description
+                  date(fromatString: "MMMM DD, YYYY")
+                }
+              }
+            }
+          }
+        `,
+        ref: "id",
+        index: ["title", "rawBody"],
+        store: ["id", "slug", "date", "title", "excerpt", "description"],
+        normalizer: ({ data }) =>
+          data.allMdx.nodes.map(node => ({
+            id: node.id,
+            slug: node.fields.slug,
+            rawBody: node.rawBody,
+            excerpt: node.excerpt,
+            title: node.frontmatter.title,
+            description: node.frontmatter.description,
+            date: node.frontmatter.date,
+          })),
+      },
+    },
     `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,8 +77,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `img`,
-        path: `${__dirname}/static`
-      }
+        path: `${__dirname}/static`,
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
