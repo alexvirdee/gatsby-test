@@ -34,10 +34,10 @@ module.exports = {
                 fields { slug }
                 excerpt
                 rawBody
-                frontMatter {
+                frontmatter {
                   title
                   description
-                  date(fromatString: "MMMM DD, YYYY")
+                  date(formatString: "MMMM DD, YYYY")
                 }
               }
             }
