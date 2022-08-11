@@ -26,7 +26,7 @@ function Bio() {
               Personal blog by 
              <strong>  <Link to={`/`}>
                 {author}
-              </Link></strong>,   <img src={Logo} style={{
+              </Link></strong>,   <img src={Logo} alt="logo" style={{
               width: '40px',
               height: '45px',
               paddingTop: '25px',
