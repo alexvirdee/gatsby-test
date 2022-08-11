@@ -6,7 +6,42 @@ import * as queryString from "query-string"
 
 import { rhythm } from "../utils/typography"
 
-const SearchedPosts = ({ results }) => {
+const SearchBar = styled.div`
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 10px;
+  margin: 0 auto ${rhythm(1)};
+  width: 100%;
+  height: 3rem;
+  background: #fdfdfd;
+
+  svg {
+    margin: auto 1rem;
+    height: 20px;
+    width: 20px;
+    color: #9aa0a6;
+    fill: #9aa0a6;
+  }
+
+  input {
+    display: flex;
+    flex: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5rem;
+    color: rgb(55, 53, 47);
+    word-wrap: break-word;
+    outline: none;
+  }
+`
+
+const SearchedPosts = ({ results }) =>
   results.length > 0 ? (
     results.map(node => {
       const date = node.date
@@ -22,7 +57,7 @@ const SearchedPosts = ({ results }) => {
               marginBottom: rhythm(1 / 4),
             }}
           >
-            <Link style={{ boxShadow: `none` }} to={`/blog/${slug}`}>
+            <Link style={{ boxShadow: `none` }} to={`/blog${slug}`}>
               {title}
             </Link>
           </h3>
@@ -36,25 +71,15 @@ const SearchedPosts = ({ results }) => {
       )
     })
   ) : (
-    <p
-      style={{
-        textAlign: "center",
-      }}
-    >
-      Sorry! No posts match this search.
+    <p style={{ textAlign: "center" }}>
+      Sorry, couldn't find any posts matching this search.
     </p>
   )
-}
 
 const AllPosts = ({ posts }) => (
-  <div
-    style={{
-      margin: "20px 0 40px",
-    }}
-  >
+  <div style={{ margin: "20px 0 40px" }}>
     {posts.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug
-
       return (
         <div key={node.fields.slug}>
           <h3
@@ -62,10 +87,7 @@ const AllPosts = ({ posts }) => (
               marginBottom: rhythm(1 / 4),
             }}
           >
-            <Link
-              style={{ boxShadow: `none` }}
-              to={`/blog/${node.fields.slug}`}
-            >
+            <Link style={{ boxShadow: `none` }} to={`/blog${node.fields.slug}`}>
               {title}
             </Link>
           </h3>
@@ -114,42 +136,9 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
           }}
         />
       </SearchBar>
-      {query ? <SearchedPosts results={results} /> : <AllPosts post={posts} />}
+      {query ? <SearchedPosts results={results} /> : <AllPosts posts={posts} />}
     </>
   )
 }
-
-const SearchBar = styled.div`
-  display: flex;
-  border: 1px solid #dfe1e5;
-  border-radius: 10px;
-  margin: 0 auto ${rhythm(1)};
-  width: 100%;
-  height: 3rem;
-  background: #fdfdfd;
-  svg {
-    margin: auto 1rem;
-    height: 20px;
-    width: 20px;
-    color: #9aa0a6;
-    fill: #9aa0a6;
-  }
-  input {
-    display: flex;
-    flex: 100%;
-    height: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    padding-right: 0.5rem;
-    color: rgb(55, 53, 47);
-    word-wrap: break-word;
-    outline: none;
-  }
-`
 
 export default SearchPosts

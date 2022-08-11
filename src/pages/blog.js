@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import { SearchPosts } from "../components/searchPosts"
+import SearchPosts from "../components/searchPosts"
 
 class Blog extends React.Component {
   render() {
@@ -25,7 +25,7 @@ class Blog extends React.Component {
           location={location}
         />
         <Link to="/">
-          <Button marginTop="15px">Go Home</Button>
+          <Button marginTop="85px">Go Home</Button>
         </Link>
       </Layout>
     )
