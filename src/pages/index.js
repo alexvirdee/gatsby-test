@@ -26,14 +26,14 @@ class IndexPage extends React.Component {
           View Posts
         </Link>
       </div>
-        <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Web Developer" />
+        <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Software Engineer" />
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
         </h1>
-        <p>I am a Software Developer based in Fort Lauderdale, Fl.</p>
+        <p>I am a Software Engineer based in Fort Lauderdale, Fl.</p>
         <p>
           I studied Business Administration at the University of Central Florida
           & after graduating taught myself how to build software. I want to
