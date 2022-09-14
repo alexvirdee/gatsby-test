@@ -28,6 +28,13 @@
     gatsby develop
     ```
 
+    **Create a new blog post**
+
+    To create a new post once the devlopment server has started go to 
+    localhost:8000/admin 
+
+    authenticate through Github to use the Netlify CMS 
+
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
