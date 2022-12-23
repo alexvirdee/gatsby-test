@@ -2,8 +2,7 @@
 path: Playing credit spreads in a bearish market
 date: 2022-11-19T15:39:57.960Z
 title: "Playing credit spreads in a bearish market "
-description: Why I am investing in speculative assets and earning more than I
-  have before by utilizing spreads to my advantage
+description: Why I am investing in speculative assets by utilizing spreads to my advantage
 ---
 ### Intro 
 
