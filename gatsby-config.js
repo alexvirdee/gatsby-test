@@ -58,7 +58,6 @@ module.exports = {
           })),
       },
     },
-    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -100,15 +99,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-smartypants`,
           },
-        ],
-        plugins: [`gatsby-remark-images`],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        ]
       },
     },
     {

@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
           View Posts
         </Link>
       </div>
-        <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Software Engineer" />
+        {/* <Img fixed={this.props.data.file.childImageSharp.fixed} alt="Software Engineer" /> */}
         <h1>
           Hello World{" "}
           <span role="img" aria-label="wave emoji">
